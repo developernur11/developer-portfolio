@@ -15,6 +15,9 @@ body{
 /*Nav Related Styles*/
 nav{
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
 }
 .nav_title{
     color:  #181818;
@@ -25,12 +28,17 @@ nav{
 nav > ul{
 
     display: flex;
+    
 }
 nav li{
     list-style: none;
     margin-right: 50px;
+
+    
+    
 }
 nav a{
     text-decoration: none;
     color: #474747;
-#}
+   
+}
